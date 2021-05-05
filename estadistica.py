@@ -46,6 +46,8 @@ with open('ulabox_orders_with_categories_partials_2017.csv', newline='') as csvf
     devstCust = statistics.stdev(cust)
 
     print("Tamaño del dataset: ", contador)
+    print("Min de customer", min(cust))
+    print("Max de customer", max(cust))
     print("Mean de customer: ", meanCust)
     print("Mode de customer: ", modeCust)
     print("Median de customer: ", medianCust)
@@ -62,6 +64,8 @@ with open('ulabox_orders_with_categories_partials_2017.csv', newline='') as csvf
     medianOrder = statistics.median(order)
     devstOrder = statistics.stdev(order)
 
+    print("Min de order", min(order))
+    print("Max de order", max(order))
     print("Mean de order: ", meanOrder)
     print("Mode de order: ", modeOrder)
     print("Median de order: ", medianOrder)
@@ -78,10 +82,13 @@ with open('ulabox_orders_with_categories_partials_2017.csv', newline='') as csvf
     medianTotal = statistics.median(total)
     devstTotal = statistics.stdev(total)
 
+    print("Min de total", min(total))
+    print("Max de total", max(total))
     print("Mean de total: ", meanTotal)
     print("Mode de total: ", modeTotal)
     print("Median de total: ", medianTotal)
     print("Desviación estándar de total: ", devstTotal)
+    
     print("Q2 quantile de total : ", np.quantile(total, .50))
     print("Q1 quantile de total : ", np.quantile(total, .25))
     print("Q3 quantile de total : ", np.quantile(total, .75))
@@ -93,6 +100,8 @@ with open('ulabox_orders_with_categories_partials_2017.csv', newline='') as csvf
     medianDisc = statistics.median(disc)
     devstDisc = statistics.stdev(disc)
 
+    print("Min de discount", min(disc))
+    print("Max de discount", max(disc))
     print("Mean de discount: ", meanDisc)
     print("Mode de discount: ", modeDisc)
     print("Median de discount: ", medianDisc)
@@ -109,6 +118,8 @@ with open('ulabox_orders_with_categories_partials_2017.csv', newline='') as csvf
     medianWday = statistics.median(wday)
     devstWday = statistics.stdev(wday)
 
+    print("Min de weekday", min(wday))
+    print("Max de weekday", max(wday))
     print("Mean de weekday: ", meanWday)
     print("Mode de weekday: ", modeWday)
     print("Median de weekday: ", medianWday)
@@ -125,6 +136,8 @@ with open('ulabox_orders_with_categories_partials_2017.csv', newline='') as csvf
     medianHour = statistics.median(hour)
     devstHour = statistics.stdev(hour)
 
+    print("Min de hour", min(hour))
+    print("Max de hour", max(hour))
     print("Mean de hour: ", meanHour)
     print("Mode de hour: ", modeHour)
     print("Median de hour: ", medianHour)
@@ -140,6 +153,8 @@ with open('ulabox_orders_with_categories_partials_2017.csv', newline='') as csvf
     medianFood = statistics.median(food)
     devstFood = statistics.stdev(food)
 
+    print("Min de food", min(food))
+    print("Max de food", max(food))
     print("Mean de food: ", meanFood)
     print("Mode de food: ", modeFood)
     print("Median de food: ", medianFood)
@@ -156,6 +171,8 @@ with open('ulabox_orders_with_categories_partials_2017.csv', newline='') as csvf
     medianFresh = statistics.median(fresh)
     devstFresh = statistics.stdev(fresh)
 
+    print("Min de fresh", min(fresh))
+    print("Max de fresh", max(fresh))
     print("Mean de fresh: ", meanFresh)
     print("Mode de fresh: ", modeFresh)
     print("Median de fresh: ", medianFresh)
@@ -172,6 +189,8 @@ with open('ulabox_orders_with_categories_partials_2017.csv', newline='') as csvf
     medianDrink = statistics.median(drink)
     devstDrink = statistics.stdev(drink)
 
+    print("Min de drink", min(drink))
+    print("Max de drink", max(drink))
     print("Mean de drink: ", meanDrink)
     print("Mode de drink: ", modeDrink)
     print("Median de drink: ", medianDrink)
@@ -188,6 +207,8 @@ with open('ulabox_orders_with_categories_partials_2017.csv', newline='') as csvf
     medianHome = statistics.median(home)
     devstHome = statistics.stdev(home)
 
+    print("Min de home", min(home))
+    print("Max de home", max(home))
     print("Mean de home: ", meanHome)
     print("Mode de home: ", modeHome)
     print("Median de home: ", medianHome)
@@ -204,6 +225,8 @@ with open('ulabox_orders_with_categories_partials_2017.csv', newline='') as csvf
     medianBeauty = statistics.median(beauty)
     devstBeauty = statistics.stdev(beauty)
 
+    print("Min de beauty", min(beauty))
+    print("Max de beauty", max(beauty))
     print("Mean de beauty: ", meanBeauty)
     print("Mode de beauty: ", modeBeauty)
     print("Median de beauty: ", medianBeauty)
@@ -220,6 +243,8 @@ with open('ulabox_orders_with_categories_partials_2017.csv', newline='') as csvf
     medianHealth = statistics.median(health)
     devstHealth = statistics.stdev(health)
 
+    print("Min de health", min(health))
+    print("Max de health", max(health))
     print("Mean de health: ", meanHealth)
     print("Mode de health: ", modeHealth)
     print("Median de health: ", medianHealth)
@@ -236,7 +261,8 @@ with open('ulabox_orders_with_categories_partials_2017.csv', newline='') as csvf
     medianBaby = statistics.median(baby)
     devstBaby = statistics.stdev(baby)
     
-
+    print("Min de baby", min(baby))
+    print("Max de baby", max(baby))
     print("Mean de baby: ", meanBaby)
     print("Mode de baby: ", modeBaby)
     print("Median de baby: ", medianBaby)
@@ -253,6 +279,8 @@ with open('ulabox_orders_with_categories_partials_2017.csv', newline='') as csvf
     medianPets = statistics.median(pets)
     devstPets = statistics.stdev(pets)
 
+    print("Min de pets", min(pets))
+    print("Max de pets", max(pets))
     print("Mean de pets: ", meanPets)
     print("Mode de pets: ", modePets)
     print("Median de pets: ", medianPets)
